@@ -17,5 +17,9 @@
     "name": "hidesuke",
     "email": "hidesuke@gmail.com",
     "url": "https://twitter.com/hidesuke"
+  },
+  "engines": {
+    "node": "8.9.1",
+    "npm": "5.4.2"
   }
 }
