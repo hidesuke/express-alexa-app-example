@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": false,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build": "node ./tools/create_schema_for_amazon.js"
   },
   "dependencies": {
     "alexa-app": "^4.2.0",
