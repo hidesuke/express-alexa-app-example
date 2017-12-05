@@ -13,6 +13,9 @@ app.use(cookieParser());
 
 app.use('/', index);
 
+// we do not serve favicon
+app.get('/favicon.ico', (req, res, next) => { res.status(204).send() });
+
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
   var err = new Error('Not Found');
