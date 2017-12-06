@@ -16,11 +16,11 @@ const UTTERANCES = {
   },
 };
 
-const helpResponse = (req, res) => res.say(UTTERANCES.response.launch).shouldENdSession(false);
+const helpResponse = (req, res) => res.say(UTTERANCES.response.launch).shouldEndSession(false);
 const stopAndCancelResponse = (req, res) => res.say(UTTERANCES.response.stopAndCancel);
 const fooResponse = (req, res) => foobarResponse(req, res, 'foo');
 const barResponse = (req, res) => foobarResponse(req, res, 'bar');
-const foobarResponse = (req, res, type) => res.say(UTTERANCES.response[type]).shouldENdSession(true);
+const foobarResponse = (req, res, type) => res.say(UTTERANCES.response[type]).shouldEndSession(true);
 
 // 「Alexa〜〜を開いて」と言ってSkillsを起動したときに発動するintent
 app.launch((req, res) => {
