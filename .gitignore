@@ -32,5 +32,5 @@ npm-debug.log
 .DS_Store
 .vscode
 
-utterances.txt
-schema.json
+SampleUtterance.txt
+IntentSchema.json
