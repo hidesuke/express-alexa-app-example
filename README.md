@@ -8,7 +8,7 @@
 
 でも、ほら、いろいろ宗教上の理由で自分のところのサーバにコード置かないといけない場合とかあるじゃないですか。でもAlexaしたい的な。そういうときに役に立つのがこの[alexa-app](https://www.npmjs.com/package/alexa-app)です。
 
-これを使うと Express + alexa-app で簡単にAlexa Skillsを自前サーバにホスティングすることができます。詳しくは [Amazon Alexa Advent Calendar 2017 10日目の記事](#)を参照してください。
+これを使うと Express + alexa-app で簡単にAlexa Skillsを自前サーバにホスティングすることができます。詳しくは [Amazon Alexa Advent Calendar 2017 10日目の記事](https://qiita.com/hidesuke/items/3366c8c55665a79bfcaf)を参照してください。
 
 ちなみに、alexa-appを使っても [AWS lambdaにデプロイすることもできます](https://www.npmjs.com/package/alexa-app#aws-lambda)。
 
